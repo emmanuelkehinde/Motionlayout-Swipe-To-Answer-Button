@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Motionlayout-Swipe-To-Answer-Button"
