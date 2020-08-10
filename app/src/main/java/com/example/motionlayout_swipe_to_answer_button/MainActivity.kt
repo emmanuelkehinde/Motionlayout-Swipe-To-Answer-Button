@@ -30,11 +30,11 @@ class MainActivity : AppCompatActivity() {
                 if (currentState == motionLayout?.endState) {
                     button_layout.background = ContextCompat.getDrawable(this@MainActivity,
                         R.drawable.button_selected_layout_bg)
+                    button_layout.isInteractionEnabled = false
 
                     //Save answer, make a network request, etc
                 }
             }
-
         })
     }
 
